@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dud75ob4ftlfn"
+path="res://.godot/imported/Calamity Mod Extra Music - Cold Front - Theme Of The Blizzard.mp3-f22fbb50f60acb3751a8cb32019f167d.mp3str"
+
+[deps]
+
+source_file="res://Sounds/Calamity Mod Extra Music - Cold Front - Theme Of The Blizzard.mp3"
+dest_files=["res://.godot/imported/Calamity Mod Extra Music - Cold Front - Theme Of The Blizzard.mp3-f22fbb50f60acb3751a8cb32019f167d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

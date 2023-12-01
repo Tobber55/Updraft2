@@ -1,0 +1,224 @@
+[gd_scene load_steps=41 format=3 uid="uid://c4f7oy52k8v7d"]
+
+[ext_resource type="Script" path="res://Scripts/Character.gd" id="1_fcd6e"]
+[ext_resource type="Texture2D" uid="uid://dusdmtq5t4422" path="res://Textures/Animations/Idle/pixil-frame-0.png" id="2_011n0"]
+[ext_resource type="Texture2D" uid="uid://bw4a05xtku58s" path="res://Textures/Animations/Idle/pixil-frame-1.png" id="3_t0n36"]
+[ext_resource type="Texture2D" uid="uid://dhtybwog1fr44" path="res://Textures/Animations/Idle/pixil-frame-2.png" id="4_knqba"]
+[ext_resource type="Texture2D" uid="uid://cpqnn72g1i6bi" path="res://Textures/Animations/Walk/pixil-frame-0.png" id="5_645ha"]
+[ext_resource type="Texture2D" uid="uid://b344xin0lsp0u" path="res://Textures/Animations/Sprint/pixil-frame-0.png" id="5_eh7db"]
+[ext_resource type="Texture2D" uid="uid://dca3hsqfjmdo2" path="res://Textures/Animations/Windy Idle/pixil-frame-3.png" id="5_fntmm"]
+[ext_resource type="Texture2D" uid="uid://del6dw24wj5nm" path="res://Textures/Animations/Walk/pixil-frame-1.png" id="6_0qtnt"]
+[ext_resource type="Texture2D" uid="uid://ynpei3his5vb" path="res://Textures/Animations/Windy Idle/pixil-frame-4.png" id="6_5j3d5"]
+[ext_resource type="Texture2D" uid="uid://xd22uvmm26d5" path="res://Textures/Animations/Sprint/pixil-frame-1.png" id="6_ur70q"]
+[ext_resource type="Texture2D" uid="uid://daax17u6rt5bo" path="res://Textures/Animations/Walk/pixil-frame-2.png" id="7_jirdi"]
+[ext_resource type="Texture2D" uid="uid://ep0tu5ookx1q" path="res://Textures/Animations/Sprint/pixil-frame-2.png" id="7_pem1m"]
+[ext_resource type="Texture2D" uid="uid://drb50700h7h73" path="res://Textures/Animations/Windy Idle/pixil-frame-5.png" id="7_uuhm1"]
+[ext_resource type="Texture2D" uid="uid://cyhijfnolslma" path="res://Textures/Animations/Sprint/pixil-frame-3.png" id="8_aja86"]
+[ext_resource type="Texture2D" uid="uid://dedthrr5oo8hx" path="res://Textures/Animations/Windy Idle/pixil-frame-6.png" id="8_luawp"]
+[ext_resource type="Texture2D" uid="uid://bnkhlsf1uqox2" path="res://Textures/Animations/Walk/pixil-frame-3.png" id="8_tinhw"]
+[ext_resource type="Texture2D" uid="uid://ds2fe85ywa86r" path="res://Textures/Animations/Sprint/pixil-frame-4.png" id="9_07bp8"]
+[ext_resource type="Texture2D" uid="uid://7kd30lgmfbt7" path="res://Textures/Animations/Walk/pixil-frame-4.png" id="9_qqgsp"]
+[ext_resource type="Texture2D" uid="uid://q5hloy03v8mv" path="res://Textures/Animations/Walk/pixil-frame-5.png" id="10_cpsuv"]
+[ext_resource type="Texture2D" uid="uid://6xiocgmtnig3" path="res://Textures/Animations/Sprint/pixil-frame-5.png" id="10_u011f"]
+[ext_resource type="Texture2D" uid="uid://bubv1kfqq12wa" path="res://Textures/Animations/Walk/pixil-frame-6.png" id="11_kw0vc"]
+[ext_resource type="Texture2D" uid="uid://cimwr5jretb6b" path="res://Textures/Animations/Walk/pixil-frame-7.png" id="12_dej6n"]
+[ext_resource type="Texture2D" uid="uid://bvx5jk4bbnfld" path="res://Textures/Animations/Walk/pixil-frame-8.png" id="13_bxcvr"]
+[ext_resource type="Texture2D" uid="uid://dyssy17dc8hxu" path="res://Textures/Animations/Wings/pixil-frame-0.png" id="24_p2i38"]
+[ext_resource type="Texture2D" uid="uid://dwnrfe1wmxvy8" path="res://Textures/Animations/Wings/pixil-frame-1.png" id="25_6kfra"]
+[ext_resource type="Script" path="res://Scripts/UI.gd" id="25_kodbi"]
+[ext_resource type="Texture2D" uid="uid://cfbtqliq25n1y" path="res://Textures/Animations/Wings/pixil-frame-2.png" id="26_8pkkn"]
+[ext_resource type="Texture2D" uid="uid://jtpwgtbhrnbg" path="res://Textures/UI/pixil-frame-0.png" id="26_k6qwh"]
+[ext_resource type="Texture2D" uid="uid://13whpdjbbrdq" path="res://Textures/UI/pixil-frame-0 (1).png" id="26_nrh1u"]
+[ext_resource type="Texture2D" uid="uid://b3fok1y885o7t" path="res://Textures/UI/HealthBar.png" id="27_hgd6u"]
+[ext_resource type="Texture2D" uid="uid://dxum7w0kbwo5t" path="res://Textures/Animations/Wings/pixil-frame-3.png" id="27_vx4cl"]
+[ext_resource type="Texture2D" uid="uid://k10nn65rarsv" path="res://Textures/UI/XP.png" id="28_mywot"]
+[ext_resource type="Texture2D" uid="uid://b7wem1lvn00q2" path="res://Textures/Animations/Wings/pixil-frame-4.png" id="28_q1k23"]
+[ext_resource type="Texture2D" uid="uid://cofduqpnmhs0m" path="res://Textures/Animations/Wings/pixil-frame-5.png" id="29_47yid"]
+[ext_resource type="Texture2D" uid="uid://bpmldow1bebal" path="res://Textures/Animations/Wings/pixil-frame-6.png" id="30_vkqbg"]
+[ext_resource type="Texture2D" uid="uid://dudfvml0y47dv" path="res://Textures/Animations/Wings/pixil-frame-7.png" id="31_f4eu7"]
+[ext_resource type="Script" path="res://Scenes/Wings.gd" id="32_64g5a"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_36wnl"]
+size = Vector2(11, 61)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_hmbsh"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_011n0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_luawp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_t0n36")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_eh7db")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_ur70q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_pem1m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_aja86")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_07bp8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_u011f")
+}],
+"loop": true,
+"name": &"Sprint",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_645ha")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_0qtnt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_jirdi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_tinhw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_qqgsp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_cpsuv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_kw0vc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_dej6n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_bxcvr")
+}],
+"loop": true,
+"name": &"Walk",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_011n0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_t0n36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_knqba")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_fntmm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_5j3d5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_uuhm1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_luawp")
+}],
+"loop": true,
+"name": &"Windy Idle",
+"speed": 8.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_oki7l"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("24_p2i38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_6kfra")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_8pkkn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_vx4cl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_q1k23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_47yid")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_vkqbg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_f4eu7")
+}],
+"loop": true,
+"name": &"default",
+"speed": 10.0
+}]
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_fcd6e")
+
+[node name="HitBox" type="CollisionShape2D" parent="."]
+position = Vector2(1.5, 0.5)
+scale = Vector2(1.2, 1.2)
+shape = SubResource("RectangleShape2D_36wnl")
+
+[node name="Character" type="AnimatedSprite2D" parent="."]
+position = Vector2(1, -7)
+scale = Vector2(1.026, 1)
+sprite_frames = SubResource("SpriteFrames_hmbsh")
+animation = &"Idle"
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Character"]
+z_index = -1
+position = Vector2(-38.9864, -5)
+scale = Vector2(-1, 1)
+sprite_frames = SubResource("SpriteFrames_oki7l")
+frame_progress = 0.40739
+script = ExtResource("32_64g5a")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="UI" type="Sprite2D" parent="Camera2D"]
+position = Vector2(-318, -234)
+scale = Vector2(3, 3.0095)
+texture = ExtResource("26_k6qwh")
+script = ExtResource("25_kodbi")
+
+[node name="Stamina" type="TextureProgressBar" parent="Camera2D/UI"]
+offset_left = -32.0
+offset_top = -2.0
+offset_right = 62.0
+offset_bottom = 7.0
+texture_progress = ExtResource("26_nrh1u")
+
+[node name="Health" type="TextureProgressBar" parent="Camera2D/UI"]
+offset_left = -36.0
+offset_top = -11.6298
+offset_right = 70.0
+offset_bottom = -3.62984
+texture_progress = ExtResource("27_hgd6u")
+
+[node name="XP" type="TextureProgressBar" parent="Camera2D/UI"]
+offset_left = -76.6667
+offset_top = -18.2755
+offset_right = -33.6667
+offset_bottom = 23.7245
+fill_mode = 2
+texture_progress = ExtResource("28_mywot")
